@@ -15,7 +15,7 @@ public class UserControllerContext : BaseControllerContext<User, Guid>
     }
     
     [HttpGet]
-    public IActionResult Get([FromBody]Guid id)
+    public IActionResult Get(Guid id)
     {
         try
         {
