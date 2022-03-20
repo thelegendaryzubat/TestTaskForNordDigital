@@ -1,8 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using WebApi.Data.Entities;
 
-namespace WebApi.Data;
+namespace WebApi.Data.Entities;
 
 public class User : BaseEntity<Guid>
 {
