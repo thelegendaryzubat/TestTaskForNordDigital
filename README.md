@@ -1,6 +1,8 @@
-# TestTaskForNordDigital
+## Запуск:
+1. Выполнить в cmd в корне каталога приложения команду docker-compose up
+2. Перейти на https://localhost:7035/swagger/index.html
 
-# Тестовое задание: C#
+## Задание
 
 Необходимо разработать приложение REST API с использованием C# ASP.NET Core. REST API должен работать с JSON
 ### База данных
