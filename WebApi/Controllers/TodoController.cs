@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using WebApi.Data;
+using WebApi.Data.Entities;
 
 namespace WebApi.Controllers;
 
