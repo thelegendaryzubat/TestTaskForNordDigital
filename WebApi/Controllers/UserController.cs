@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using WebApi.Data;
+using WebApi.Data.Entities;
 
 namespace WebApi.Controllers;
 
@@ -28,7 +29,7 @@ public class UserControllerContext : BaseControllerContext<User, Guid>
     }
     
     [HttpDelete]
-    public async Task<IActionResult> Delete([FromBody]Guid id)
+    public async Task<IActionResult> Delete(Guid id)
     {
         try
         {
