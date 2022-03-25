@@ -1,2 +1,2 @@
 FROM postgres:12-alpine
-COPY /sample_data/ /docker-entrypoint-initdb.d/
+COPY ../psql/sample_data/ /docker-entrypoint-initdb.d/
